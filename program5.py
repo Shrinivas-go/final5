@@ -1,6 +1,6 @@
 import sys
 script_name = sys.argv[0]
-if len(sys.argv) >= 4:
+if len(sys.argv) < 4:
   print("Usage: python program5.py <principal> <time> <rate>")
   sys.exit(1)
 else:
